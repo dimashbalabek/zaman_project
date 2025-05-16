@@ -3,8 +3,8 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter_clean_architecture_practise/features/auth/presentation/bloc/auth_bloc.dart';
 import 'package:flutter_clean_architecture_practise/features/auth/presentation/bloc/auth_state.dart';
-import 'package:flutter_clean_architecture_practise/features/auth/presentation/pages/home_page.dart';
-import 'package:flutter_clean_architecture_practise/wellcome_page.dart';
+import 'package:flutter_clean_architecture_practise/features/auth/presentation/pages/wellcome_page.dart';
+import 'package:flutter_clean_architecture_practise/home_page.dart';
 
 class AuthGate extends StatelessWidget {
   const AuthGate({super.key});

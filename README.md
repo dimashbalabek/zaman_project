@@ -1,32 +1,16 @@
-# Flutter Clean Architecture Practice
+# zaman
 
-This project demonstrates the implementation of **Flutter Clean Architecture** with a focus on building a scalable and maintainable mobile application. It includes key features like authentication, onboarding, and navigation, while following best practices for Flutter app development.
+A new Flutter project.
 
-## Features
+## Getting Started
 
-- **Splash Screen**: A welcoming splash screen that transitions into the onboarding flow.
-- **Onboarding Flow**: Multiple onboarding screens introducing the app's features.
-- **Sign Up Page**: A simple sign-up page for user registration.
-- **Navigation**: Smooth navigation with a PageController for onboarding and named routes for screen transitions.
-- **Clean Architecture**: The app is built with clean architecture principles to keep the codebase modular and testable.
+This project is a starting point for a Flutter application.
 
-## Folder Structure
+A few resources to get you started if this is your first Flutter project:
 
-```plaintext
-/lib
-├── features
-│   ├── auth
-│   │   ├── presentation
-│   │   │   ├── pages
-│   │   │   │   ├── auth_gate.dart
-│   │   │   │   └── sign_up_page.dart
-│   │   └── data
-│   ├── onboarding
-│   │   └── presentation
-│   │       └── pages
-│   │           ├── splash_screen.dart
-│   │           └── onboarding_screen.dart
-└── main.dart
-Screenshots
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-```
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.

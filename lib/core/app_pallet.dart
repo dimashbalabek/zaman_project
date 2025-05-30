@@ -14,4 +14,5 @@ class AppPallete {
   static const Color hint = Colors.white70;
 
   static const Color error = Colors.redAccent;
+  static const Color black = Colors.black;
 }

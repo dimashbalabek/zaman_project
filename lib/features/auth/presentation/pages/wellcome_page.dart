@@ -134,11 +134,6 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                 child: CircleAvatar(
                   radius: 20,
                   backgroundColor: Colors.white,
-                  child: IconButton(
-                    icon: const Icon(Icons.arrow_back),
-                    color: Colors.grey,
-                    onPressed: _goBack,
-                  ),
                 ),
               ),
             ),
